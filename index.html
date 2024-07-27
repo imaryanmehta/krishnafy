@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/db7df9ee2c.js" crossorigin="anonymous"></script>
+<title>Hare Krishna</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/n_logo.png" height="90" width="50" alt="Hare Krishna"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="https://prabhupadabooks.com/ssr">BOOKS</a></li>
+                    <li><a href="https://krishnatube.com/channel/bhagavad-gita-as-it-is-classes/27/">VIDEOS</a></li>
+                    <li><a href="question.html">QUESTIONS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Bhagwad Geeta</h1>
+            <p>For Those who Understands it's Science</p>
+            <a href="question.html"class="hero-btn">Raise Your Arjun</a>
+        </div>
+    </section>
+<!---------Chant------------->
+<section class="chant" style="width: 20%; ">
+    <div class="row">
+        <div class="chant-col" style="text-align: center;">
+            <h1>Chant</h1>
+            <p style="font-size:20px; font-weight: 500;">Hare Krishna <br> Hare Krishna <br> Krishna Krishna <br> Hare Hare <br> Hare Rama <br> Hare Rama <br> Rama Rama <br> Hare Hare <br> and Be Happy...</p>
+        </div>
+    </div>
+</section>
+<!------testimonials--------->
+
+<section class="testimonials">
+    <h1>What Peoples Says About Bhagwad Geeta</h1>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Hare Krishna">
+            <div>
+                <p>“I am most impressed with A. C. Bhaktivedanta Swami Prabhupada’s scholarly and authoritative edition of Bhagavad-gita. It is a most valuable work for the scholar as well as the layman and is of great utility as a reference book as well as a textbook. I promptly recommend this edition to my students. It is a beautifully done book.”</p>
+                <h3>Dr. Samuel D. Atkins</h3>
+                <p>Professor of Sanskrit, Princeton University</p>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="https://images.unsplash.com/photo-1619895862022-09114b41f16f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Hare Krishna">
+            <div>
+                <p>“As a native of India now living in the West, it has given me much grief to see so many of my fellow countrymen coming to the West in the role of gurus and spiritual leaders. For this reason, I am very excited to see the publication of Bhagavad-gita As It Is by Sri A. C. Bhaktivedanta Swami Prabhupada. It will help to stop the terrible cheating of false and unauthorized ‘gurus’ and ‘yogis’ and will give an opportunity to all people to understand the actual meaning of Oriental culture.”</p>
+                <h3>Lisa Berkley</h3>
+                <p>Professor of the History of Religions and Director of Libraries
+                    Graduate Theological Union, Berkeley, California</p>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------C.T.A----------->
+
+<section class = "cta">
+    <h1>Ask Your Questions</h1>
+    <a href="contact.html"class="hero-btn">Contact Us</a>
+</section>
+
+<!--------Footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Hare Krishna!! This is a non-profitable Comunity, <br> Raise your Arjun Know More about Bhagwad Gita <br> Ask Questions and Share your experience with Bhagwad Gita!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+    <p>Code and Design by <i class="fa fa-code"></i> imaryanmehta</p>
+</section>
+    <!-- ----JavaScript for Toggle Menu----- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

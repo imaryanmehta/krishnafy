@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<!-- <script src="https://kit.fontawesome.com/66a7a53d7a.js" crossorigin="anonymous"></script>? -->
+<title>Hare Krishna</title>
+<script src="https://kit.fontawesome.com/db7df9ee2c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/n_logo.png" height="90" width="50" alt="Hare Krishna"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="https://prabhupadabooks.com/ssr">BOOKS</a></li>
+                    <li><a href="https://krishnatube.com/channel/bhagavad-gita-as-it-is-classes/27/">VIDEOS</a></li>
+                    <li><a href="question.html">QUESTIONS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Questions</h1>
+    </section>
+<!-----Questions------->
+<div class="row">
+    <div class="question-col">
+        <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <input type="number" name="number" placeholder="Enter your Number" required>
+            <textarea rows="8" name="question" placeholder="Ask your Question" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Question</button>
+        </form>
+    </div>
+</div>
+
+<!--------Footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Hare Krishna!! This is a non-profitable Comunity, <br> Raise your Arjun Know More about Bhagwad Gita <br> Ask Questions and Share your experience with Bhagwad Gita!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+    <p>Code and Design by <i class="fa fa-code"></i> imaryanmehta</p>
+
+    <!-- ----JavaScript for Toggle Menu----- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
